@@ -1,0 +1,5 @@
+[MESSAGES CONTROL]
+disable=broad-except,invalid-name,missing-module-docstring,missing-function-docstring,attribute-defined-outside-init,global-statement
+
+[TYPECHECK]
+generated-members=cv2.*

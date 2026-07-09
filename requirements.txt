@@ -1,0 +1,17 @@
+# --- PyTorch под видеокарту RTX 5050 (архитектура Blackwell, sm_120) ---
+# Строка ниже заставляет pip брать torch из официального индекса под CUDA 12.8.
+# Суффикс +cu128 гарантирует, что скачается именно GPU-сборка, а не CPU-версия.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.8.0+cu128
+
+# --- Остальные библиотеки ---
+gymnasium==0.29.1
+stable-baselines3==2.3.2
+opencv-python==4.10.0.84
+numpy==1.26.4
+mss==9.0.1
+pydirectinput==1.0.4
+pygetwindow==0.0.9
+tensorboard==2.17.0
+pynput==1.7.7
+pillow==10.4.0
