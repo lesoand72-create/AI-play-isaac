@@ -1,5 +1,7 @@
 # AI plays The Binding of Isaac 🎮
 
+**English** | [Русский](README.ru.md)
+
 A neural network learns to play *The Binding of Isaac (Afterbirth+)* using
 Reinforcement Learning (the **PPO** algorithm).
 
@@ -18,17 +20,16 @@ Reinforcement Learning (the **PPO** algorithm).
 - NVIDIA GPU (optional, speeds up training)
 
 ## Installation
+git clone https://github.com/lesoand72-create/AI-play-isaac.git
+cd AI-play-isaac
 python -m venv .venv
 .venvScriptsActivate.ps1
 pip install -r requirements.txt
 
-
 ## Usage
-
 python train.py   # train the agent
 python play.py    # watch the trained model play
 tensorboard --logdir logs   # training charts
-
 
 ## Project structure
 - `isaac_env/` — Gymnasium environment (capture, preprocessing, rewards, control)
